@@ -1,0 +1,40 @@
+#time-table {
+    text-align: center;
+}
+
+table {
+    width:80%;
+    margin:auto;
+    border-collapse:collapse;
+}
+
+td {
+    padding:6px 12px;
+    border:0;
+    text-align:center;
+}
+
+thead tr {
+    font-size:1rem;
+    text-transform:uppercase;
+    font-weight: bold;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+thead tr td {
+    border-bottom:1px solid #ccc;
+    border-left:0;
+    text-align:left;
+}
+
+tr th {
+    font-weight:normal;
+}
+
+tr td {
+    border-left:1px solid #ccc;
+}
+
+tbody tr:hover{
+    background-color: #FF974F;
+}

@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>TechCon Survey Results</title>
+
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+<main role="main" class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-8 mb-3">
+            <h1 class="mt-5 text-center">TechCon Survey</h1>
+            <h2 class="text-muted text-center"><span id="total">0</span> votes</h2>
+        </div>
+    </div>
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div id="time-table">
+                <table class="sortable table table-hover">
+                    <thead>
+                    <tr>
+                        <td>personality</td>
+                        <td>votes</td>
+                        <td>percent</td>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div id="time-line"></div>
+        </div>
+        <div class="col-md-6">
+            <div id="time-pie"></div>
+        </div>
+        <div class="col-md-6">
+            <div id="time-bar"></div>
+        </div>
+    </div>
+</main>
+<script type="text/javascript" src="../node_modules/jquery/dist/jquery.min.js"></script>
+<script type="text/javascript" src="../node_modules/jquery-ui-dist/jquery-ui.min.js"></script>
+<script type="text/javascript" src="../node_modules/highcharts/highcharts.js"></script>
+<script type="text/javascript" src="../node_modules/sorttable/sorttable.js"></script>
+<script type="text/javascript" src="./index.js"></script>
+</body>
+</html>
