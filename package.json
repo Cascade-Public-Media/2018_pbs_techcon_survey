@@ -4,12 +4,12 @@
   "description": "Techcon survey system",
   "main": "index.js",
   "dependencies": {
-    "bootstrap": "^4.1.3",
-    "highcharts": "^6.1.3",
+    "bootstrap": "^4.3.1",
+    "highcharts": "^6.2.0",
     "jquery-ui-dist": "^1.12.1",
-    "popper.js": "^1.14.4",
+    "popper.js": "^1.14.7",
     "sorttable": "^1.0.2",
-    "survey-jquery": "^1.0.44"
+    "survey-jquery": "^1.0.71"
   },
   "devDependencies": {},
   "scripts": {
